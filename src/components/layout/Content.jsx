@@ -3,7 +3,7 @@ import './Content.css';
 
 const Content = props =>{
 
-    return <main className='Content'>Componente App</main>
+    return <main className='Content'><h1>Conteudo</h1></main>
 
 }
 
