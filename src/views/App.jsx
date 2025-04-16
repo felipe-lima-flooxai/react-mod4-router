@@ -2,16 +2,16 @@ import React from 'react';
 import './App.css';
 import Menu from "../components/layout/Menu"
 import Content from "../components/layout/Content"
-import { BrowserRouter as Router } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 
 const App = props =>{
 
     return (
         <div className='App'>
-            <Router>
+            <BrowserRouter>
                 <Menu></Menu>
                 <Content></Content>
-            </Router>
+            </BrowserRouter>
         </div>)
 
 }
